@@ -1,10 +1,28 @@
 # **Quantum state tomography based on infidelity estimation**
 
-The official Pytorch implementation of the paper named `Quantum state tomography based on infidelity estimation`.
+The official Pytorch implementation of the paper named `Quantum state tomography based on infidelity estimation`, has been accepted by Quantum Science and Technology.
 
 ### **Abstract**
 
-Quantum state tomography is a fundamental technique in quantum information science for characterizing and benchmarking quantum systems based on measurement statistics. In this work, we introduce an infidelity-based least-squares estimator that integrates the state purity information, resulting in a orders of magnitude higher tomography accuracy compared to previous methods. This estimator is further enhanced by incorporating randomized technique from direct fidelity estimation, making it applicable to large-scale quantum systems. We validate the proposed estimators through extensive experiments conducted on the IBM Qiskit simulator. Our results demonstrate that the estimator achieves an $\mathcal{O}(1/N)$ infidelity scaling with Pauli sample size $N$ for (nearly) pure states. Further, it enables high-precision pure-state tomography for systems of up to 25-qubit states, given some priors about the state. The proposed method offers a novel perspective on the union of advanced tomography techniques and state property estimation.
+Quantum state tomography is a cornerstone of quantum information technologies to characterize and benchmark quantum systems from measurement statistics. In this work, we present an infidelity-based least-squares estimator, which incorporates the state purity information and provides orders of magnitude higher tomography accuracy than previous ones. It is further enhanced with the randomized toolbox of direct fidelity estimation, making it applicable to large-scale quantum systems. We validate the proposed estimators through extensive experiments conducted on the IBM Qiskit simulator. The results also demonstrate that our estimator admits an $\mathcal{O}(1/N)$ infidelity scaling with Pauli sample size $N$ for (nearly) pure states. Further, it enables high-precision pure-state tomography for systems of up to 25-qubit states, given some state priors. Our method provides a novel perspective on the union of underlying tomography technique and state properties estimation.
+
+### **Citation**
+
+If you find our work useful in your research, please cite:
+
+```
+@article{wang2024quantum,
+  title = {Quantum state tomography based on infidelity estimation},
+  author = {Wang, Yong and Liu, Lijun and Dou, Tong and Li, Li and Cheng, Shuming},
+  journal = {Quantum Sci. Technol.},
+  volume = {10},
+  pages = {015035},
+  year = {2024},
+  month = {Nov},
+  doi = {10.1088/2058-9565/ad92a4},
+  url = {https://iopscience.iop.org/article/10.1088/2058-9565/ad92a4}
+}
+```
 
 ## Getting started
 
